@@ -1,0 +1,16 @@
+.footer {
+  background-color: rgb(30, 30, 30);
+  padding: 30px;
+  color: white;
+  a {
+    font-size: 30px;
+    color: rgb(230, 230, 230);
+    &:hover {
+      color: rgb(190, 190, 190);
+    }
+  }
+}
+
+#footer-text-center {
+  padding-top: 10px;
+}
