@@ -26,8 +26,11 @@
 
 .layer {
   padding: 40px;
+  &-light-grey {
+    background-color: rgba(230, 230, 230, 0.4);
+  }
 }
 
-.layer-light-grey {
-  background-color: rgba(230, 230, 230, 0.4);
+h1 {
+  font-family: $base-font;
 }

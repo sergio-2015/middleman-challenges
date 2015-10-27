@@ -1,0 +1,31 @@
+<div class="layer layer-light-grey text-center">
+  <h1>Here are your ressources</h1>
+  <div class="container">
+    <div class="row">
+      <% data.ressources.each do |ressource| %>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="ressource-card">
+            <%= image_tag ressource.picture %>
+            <div class="ressource-card-avatar">
+              <%= image_tag ressource.avatar %>
+            </div>
+            <div class="ressource-card-content">
+              <h3><%= ressource.name %></h3>
+              <p><%= ressource.summary %></p>
+            </div>
+            <div class="ressource-card-span">
+              <span><%= ressource.label %></span>
+            </div>
+
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+
+
+
+
+
+</div>
